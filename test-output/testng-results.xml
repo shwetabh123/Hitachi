@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-20T08:13:58 IST" name="Suite" finished-at="2023-05-20T08:15:41 IST" duration-ms="102632">
+    <groups>
+    </groups>
+    <test started-at="2023-05-20T08:13:58 IST" name="LoginTests1" finished-at="2023-05-20T08:15:41 IST" duration-ms="102632">
+      <class name="Tests.ParallelTestingThreadLocal">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:13:58 IST" name="beforeSuite" finished-at="2023-05-20T08:13:58 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest(org.testng.xml.XmlTest)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:13:58 IST" name="beforeTest" finished-at="2023-05-20T08:13:58 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@3d114c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:13:58 IST" name="beforeClass" finished-at="2023-05-20T08:13:58 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6fa34d52]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:13:58 IST" name="setUp" finished-at="2023-05-20T08:13:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.ParallelTestingThreadLocal.navigatetosite(java.lang.reflect.Method) throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigatetosite(java.lang.reflect.Method)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:13:58 IST" name="navigatetosite" finished-at="2023-05-20T08:14:06 IST" duration-ms="7398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.ParallelTestingThreadLocal.navigatetosite(java.lang.reflect.Method) throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetosite -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:14:06 IST" name="tearDown" finished-at="2023-05-20T08:14:07 IST" duration-ms="1068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigatetosite status=SUCCESS method=ParallelTestingThreadLocal.navigatetosite(java.lang.reflect.Method)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:14:08 IST" name="setUp" finished-at="2023-05-20T08:14:08 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.ParallelTestingThreadLocal.opensearchresults(java.lang.reflect.Method,java.lang.String) throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="opensearchresults(java.lang.reflect.Method, java.lang.String)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:14:08 IST" name="opensearchresults" data-provider="loginData" finished-at="2023-05-20T08:14:28 IST" duration-ms="19266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.ParallelTestingThreadLocal.opensearchresults(java.lang.reflect.Method,java.lang.String) throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Finance]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opensearchresults -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:14:28 IST" name="tearDown" finished-at="2023-05-20T08:14:28 IST" duration-ms="246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=opensearchresults status=SUCCESS method=ParallelTestingThreadLocal.opensearchresults(java.lang.reflect.Method, java.lang.String)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:14:28 IST" name="setUp" finished-at="2023-05-20T08:14:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.ParallelTestingThreadLocal.opensearchresults(java.lang.reflect.Method,java.lang.String) throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="opensearchresults(java.lang.reflect.Method, java.lang.String)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:14:28 IST" name="opensearchresults" data-provider="loginData" finished-at="2023-05-20T08:14:46 IST" duration-ms="18653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.ParallelTestingThreadLocal.opensearchresults(java.lang.reflect.Method,java.lang.String) throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opensearchresults -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:14:46 IST" name="tearDown" finished-at="2023-05-20T08:14:47 IST" duration-ms="297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=opensearchresults status=SUCCESS method=ParallelTestingThreadLocal.opensearchresults(java.lang.reflect.Method, java.lang.String)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:14:47 IST" name="setUp" finished-at="2023-05-20T08:14:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.ParallelTestingThreadLocal.opensearchresults(java.lang.reflect.Method,java.lang.String) throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="opensearchresults(java.lang.reflect.Method, java.lang.String)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:14:47 IST" name="opensearchresults" data-provider="loginData" finished-at="2023-05-20T08:15:14 IST" duration-ms="27538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.ParallelTestingThreadLocal.opensearchresults(java.lang.reflect.Method,java.lang.String) throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Marketing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opensearchresults -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:15:14 IST" name="tearDown" finished-at="2023-05-20T08:15:15 IST" duration-ms="595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=opensearchresults status=SUCCESS method=ParallelTestingThreadLocal.opensearchresults(java.lang.reflect.Method, java.lang.String)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:15:15 IST" name="setUp" finished-at="2023-05-20T08:15:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.ParallelTestingThreadLocal.searchforkeywords(java.lang.reflect.Method) throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchforkeywords(java.lang.reflect.Method)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:15:15 IST" name="searchforkeywords" finished-at="2023-05-20T08:15:41 IST" duration-ms="25841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.ParallelTestingThreadLocal.searchforkeywords(java.lang.reflect.Method) throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchforkeywords -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:15:41 IST" name="tearDown" finished-at="2023-05-20T08:15:41 IST" duration-ms="340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchforkeywords status=SUCCESS method=ParallelTestingThreadLocal.searchforkeywords(java.lang.reflect.Method)[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:15:41 IST" name="afterClass" finished-at="2023-05-20T08:15:41 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="testDown()[pri:0, instance:Tests.ParallelTestingThreadLocal@3738449f]" started-at="2023-05-20T08:15:41 IST" name="testDown" finished-at="2023-05-20T08:15:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+      </class> <!-- Tests.ParallelTestingThreadLocal -->
+    </test> <!-- LoginTests1 -->
+  </suite> <!-- Suite -->
+</testng-results>
