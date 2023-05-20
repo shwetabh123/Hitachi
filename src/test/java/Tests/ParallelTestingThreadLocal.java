@@ -59,6 +59,7 @@ public class ParallelTestingThreadLocal extends BaseTest {
 		DriverFactory.getInstance().getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		DriverFactory.getInstance().getDriver().navigate().to(appURL1);
 		Thread.sleep(5000);
+		childTestnew.get().log(Status.INFO,"Logged into  " + url);
 		WebElement e1=DriverFactory.getInstance().getDriver().findElement(By.xpath(PropertiesOperations.getPropertyValueByKey("search")));
 		e1.click();
 		childTestnew.get().log(Status.INFO,"Clicked search ");
@@ -76,7 +77,6 @@ public class ParallelTestingThreadLocal extends BaseTest {
 				+ DriverFactory.getInstance().getDriver().getTitle() + " on driver" + " reference "
 				+ DriverFactory.getInstance().getDriver());
 
-		childTestnew.get().log(Status.INFO,"Logged into  " + url);
 	}
 	
 	@Test(dataProvider = "loginData")
